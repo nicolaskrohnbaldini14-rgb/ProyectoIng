@@ -25,7 +25,6 @@ Las skills fueron calibradas y validadas utilizando estrictamente el material te
 El proceso de diseño de prompts se realizó de forma iterativa:
 1. **Estructuración Teórica:** Se tradujeron las reglas de negocio y arquitectónicas de la bibliografía en instrucciones de sistema rígidas (System Prompts).
 2. **Definición de Roles:** Se asignaron identidades de agentes expertos (p. ej. *Auditor de Arquitectura y Especialista en Evaluaciones ATAM*) para condicionar el tono y rigor técnico de la IA.
-3. **Guardrails y Reglas de Validación:** Se introdujeron validaciones explícitas en las instrucciones para evitar errores recurrentes de los alumnos, como confundir un escenario de modificabilidad en tiempo de diseño con uno de tiempo de ejecución (operación).
 
 ---
 
