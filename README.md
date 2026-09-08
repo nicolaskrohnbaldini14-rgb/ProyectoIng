@@ -32,8 +32,12 @@ El proceso de diseño de prompts se realizó de forma iterativa:
 Para evaluar la robustez, consistencia y portabilidad de las tres *skills*, se ejecutaron pruebas de estrés con los siguientes agentes de IA:
 
 ### A. Claude (Anthropic)
+<img width="609" height="458" alt="claude" src="https://github.com/user-attachments/assets/efbfcae7-17bc-428f-b2d7-ba2805b19052" />
+
 
 ### B. Open Code (Modelos Abiertos / Locales)
+<img width="781" height="480" alt="opencode" src="https://github.com/user-attachments/assets/05694c07-d6ac-48ba-9d85-e71cabf9cfaf" />
+
 
 ### C. Gemini Notebook (Google)
 
