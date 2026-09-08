@@ -29,7 +29,8 @@ El proceso de diseño de prompts se realizó de forma iterativa:
 ---
 
 ## 4. Agentes de IA Utilizados para la Prueba y Validación
-Para evaluar la robustez, consistencia y portabilidad de las tres *skills*, se ejecutaron pruebas de estrés con los siguientes agentes de IA:
+Para evaluar la robustez, consistencia y portabilidad de las tres *skills*, se ejecutaron varias pruebas con los siguientes agentes de IA.
+En particular, con el ejercicio 2b del Trabajo Práctico N3, estos son los resultados arrojados para la skill 2 en cada uno de los agentes.
 
 ### A. Claude (Anthropic)
 <img width="609" height="458" alt="claude" src="https://github.com/user-attachments/assets/efbfcae7-17bc-428f-b2d7-ba2805b19052" />
@@ -40,6 +41,7 @@ Para evaluar la robustez, consistencia y portabilidad de las tres *skills*, se e
 
 
 ### C. Gemini Notebook (Google)
+<img width="1216" height="345" alt="notebooklm" src="https://github.com/user-attachments/assets/c4412293-79f5-4c72-ae8a-0ce7756b252b" />
 
 ---
 
