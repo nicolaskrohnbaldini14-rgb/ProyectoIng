@@ -30,10 +30,17 @@ El proceso de diseño de prompts se realizó de forma iterativa:
 ---
 
 ## 4. Agentes de IA Utilizados para la Prueba y Validación
-Para evaluar la robustez, consistencia y portabilidad de las tres *skills*, se ejecutaron varias pruebas con los siguientes agentes de IA.
-En particular con el ejercicio 2b del Trabajo Práctico N3, detallamos a continuación los resultados arrojados para la Skill 2 en cada uno de los agentes.
+Para evaluar la robustez, consistencia y portabilidad de las tres Skills, se realizaron diversas pruebas utilizando los siguientes agentes de Inteligencia Artificial:
 
-### A. Claude (Anthropic)
+Claude 
+OpenCode 
+NotebookLM 
+
+Los casos de prueba utilizados se encuentran documentados en el archivo test.md. Para cada Skill se definieron diversos ejemplos correspondientes a los distintos atributos de calidad evaluados en la materia, con el objetivo de comprobar que las Skills fueran capaces de identificar y procesar correctamente cada uno de ellos.
+
+Asimismo, en los archivos resultados_claude, resultados_notebook y resultados_opencode se pueden observar las respuestas obtenidas por cada agente de IA a partir de las Skills y los casos de prueba correspondientes.
+
+A modo de ejemplo, y con el objetivo de mostrar el comportamiento de los distintos agentes frente a un mismo escenario, se presentan a continuación los resultados obtenidos para la Skill 2, utilizando como referencia el ejercicio 2b del Trabajo Práctico N.º 3.
 <img width="609" height="458" alt="claude" src="https://github.com/user-attachments/assets/efbfcae7-17bc-428f-b2d7-ba2805b19052" />
 
 
