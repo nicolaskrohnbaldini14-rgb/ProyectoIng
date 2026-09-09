@@ -105,7 +105,7 @@
 ---
 
 
-## Test 3
+## Test 2
 
 **Entrada:** *"El sistema debe ser seguro cuando un usuario intenta acceder a información privada de otro usuario."* (texto libre, sin las 6 partes etiquetadas)
 
