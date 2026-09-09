@@ -15,68 +15,9 @@
 - Existe coherencia entre estímulo y respuesta.
 
 
----
+----
 
-## Test 2 
-
-### Entrada
-
-> El sistema de reservas debe estar disponible para los usuarios prácticamente todo el tiempo y debe recuperarse rápidamente ante una falla.
-
-### Resultado esperado
-
-- Identificar **Disponibilidad** como atributo.
-- Construir el escenario con las 6 partes.
-- Detectar que faltan datos cuantitativos y proponer valores como supuestos claramente identificados.
-
----
-
-## Test 3 
-
-### Entrada
-
-> Cuando un usuario intenta acceder a información privada de otro usuario, el sistema debe impedir el acceso y registrar el intento.
-
-### Resultado esperado
-
-
-- Completar las 6 partes del escenario.
-- Diferenciar correctamente el estímulo, fuente, entorno, artefacto, respuesta y medida de respuesta.
-
----
-
-## Test 4 
-
-### Entrada
-
-> Cuando se necesita agregar un nuevo método de pago, el cambio debería poder realizarse sin modificar el resto del sistema y debería completarse en poco tiempo.
-
-### Resultado esperado
-
-
-- Completar las 6 partes.
-- Señalar qué información está incompleta.
-- Proponer supuestos razonables para cuantificar el escenario.
-
----
-
-## Test 5 
-
-### Entrada
-
-> Un usuario nuevo debe poder realizar una compra sin capacitación previa y cometer la menor cantidad posible de errores.
-
-### Resultado esperado
-
-- Identificar el atributo de calidad correspondiente.
-- Completar las 6 partes del escenario SEI.
-- No inventar información que no esté especificada; cuando falte, indicar un supuesto.
-- La medida de respuesta es cuantificable.
-- Existe coherencia entre estímulo y respuesta.
-
----
-
-## Test 6 
+## Test 2
 
 ### Entrada
 
@@ -92,7 +33,7 @@
 
 ---
 
-## Test 7 
+## Test 3
 
 ### Entrada
 
@@ -107,7 +48,7 @@
 
 ---
 
-## Test 8 
+## Test 4
 
 ### Entrada
 
@@ -121,9 +62,9 @@
 - Generar el escenario SEI diferenciando claramente datos originales y supuestos.
 
 
-Casos de prueba — Skill 2: Validador de escenarios de atributos de calidad
+## Casos de prueba — Skill 2: Validador de escenarios de atributos de calidad
 
-Test 1 
+## Test 1 
 
 Entrada
 
@@ -145,29 +86,10 @@ No solicitar información adicional.
 
 indicar el resultado 
 
-Test 2 
-
-Entrada
-
-Atributo: Disponibilidad
-Fuente del estímulo: Administrador
-Estímulo: Se produce una falla en el servidor.
-Entorno: Operación normal.
-Artefacto: Sistema de reservas.
-Respuesta: El sistema debe continuar funcionando.
-
-Resultado esperado
-
-Detectar que falta la medida de respuesta.
-
-Indicar explícitamente qué parte falta.
-
-Sugerir cómo completar la medida, por ejemplo con un porcentaje de disponibilidad o un tiempo máximo de recuperación.
-
-No afirmar que el escenario está completo.
+---
 
 
-Test 3 
+## Test 2
 
 Entrada
 
@@ -186,54 +108,10 @@ Sugerir información concreta para completar el escenario.
 No inventar valores como si hubieran sido proporcionados por el usuario.
 
 
-Test 4 
 
-Entrada
+## Casos de prueba — Skill 3: Generador de árbol de utilidad ATAM
 
-Atributo: Performance
-Fuente: Muchos usuarios
-Estímulo: El sistema recibe muchas solicitudes.
-Entorno: Situaciones de alta demanda.
-Artefacto: Aplicación web.
-Respuesta: El sistema debe ser rápido.
-Medida: Debe responder rápidamente.
-
-Resultado esperado
-
-Detectar que varias partes son demasiado ambiguas.
-
-Señalar especialmente la falta de una medida cuantificable.
-
-Sugerir reemplazar expresiones como "muchas solicitudes" y "rápidamente" por valores concretos.
-
-No considerar el escenario completo solamente porque aparecen las 6 etiquetas.
-
-Test 5 
-
-Entrada
-
-Atributo: Modificabilidad
-Fuente: Equipo de desarrollo.
-Estímulo: Se solicita agregar un nuevo método de pago.
-Entorno: Sistema en producción.
-Artefacto: Módulo de pagos.
-Respuesta: El nuevo método debe incorporarse sin afectar los métodos existentes.
-Medida: El cambio debe implementarse en un máximo de 2 días.
-Información adicional: El sistema utiliza una arquitectura modular y tiene pruebas automatizadas.
-
-Resultado esperado
-
-Considerar completo el escenario.
-
-Separar las 6 partes de la información adicional.
-
-No marcar como incompleto por contener información que no pertenece directamente a las 6 partes.
-
-
-
-Casos de prueba — Skill 3: Generador de árbol de utilidad ATAM
-
-Test 1 
+## Test 1 
 
 Entrada
 
@@ -264,7 +142,7 @@ Representar correctamente la jerarquía del árbol.
 Priorizar los escenarios según los datos disponibles o indicar que falta información para establecer prioridad.
 
 
-Test 2 
+## Test 2 
 
 Entrada
 
@@ -307,117 +185,3 @@ Reflejar correctamente las prioridades indicadas.
 No cambiar las prioridades proporcionadas.
 
 
-Test 3 
-
-Entrada
-
-Sistema de reservas de vuelos.
-
-Atributos:
-
-Performance
-
-Disponibilidad
-
-Escenarios:
-
-El sistema debe ser rápido cuando muchos usuarios realizan búsquedas.
-
-El sistema debe funcionar siempre.
-
-Resultado esperado
-
-Crear el árbol de utilidad.
-
-Identificar Performance y Disponibilidad.
-
-Asociar cada escenario con su atributo.
-
-Detectar que los escenarios son poco concretos o carecen de medidas cuantificables.
-
-No inventar las medidas como si fueran datos proporcionados.
-
-
-Test 4 
-
-Entrada
-
-Crear un árbol de utilidad para una aplicación web.
-
-Atributo: Performance.
-
-Escenarios:
-
-Las búsquedas deben responder en menos de 2 segundos.
-
-La generación de reportes debe finalizar en menos de 10 segundos.
-
-El sistema debe soportar 5.000 usuarios concurrentes manteniendo un tiempo de respuesta menor a 3 segundos.
-
-Otro atributo:
-
-Seguridad: los usuarios no autorizados no deben poder acceder a información privada.
-
-Resultado esperado
-
-Crear el atributo Performance una sola vez.
-
-Colocar debajo de Performance sus tres escenarios.
-
-Crear Seguridad como otro atributo.
-
-Colocar el escenario de acceso no autorizado bajo Seguridad.
-
-Mantener la estructura jerárquica del árbol.
-
-
-Test 5 
-
-Entrada
-
-Sistema de gestión universitaria.
-
-Atributos de calidad:
-
-Usabilidad
-
-Seguridad
-
-Modificabilidad
-
-Escenarios:
-
-Un estudiante nuevo debe poder inscribirse a una materia sin capacitación.
-
-Un usuario sin permisos no debe poder modificar las notas.
-
-Resultado esperado
-
-Crear los tres atributos.
-
-Asociar el primer escenario con Usabilidad.
-
-Asociar el segundo escenario con Seguridad.
-
-Detectar que Modificabilidad no tiene escenarios asociados.
-
-Indicar que sería necesario agregar al menos un escenario para Modificabilidad si se busca evaluar ese atributo en el árbol.
-
-
-Test 6 
-
-Entrada
-
-Una aplicación de streaming debe permitir que los usuarios reproduzcan videos sin interrupciones. Cuando aumenta mucho la cantidad de usuarios, el sistema debe continuar funcionando correctamente y las fallas deben recuperarse automáticamente.
-
-Resultado esperado
-
-Inferir los atributos de calidad relevantes a partir de los escenarios.
-
-No depender exclusivamente de que el usuario proporcione el nombre del atributo.
-
-Proponer una estructura de árbol razonable.
-
-Explicar qué información se está infiriendo y qué información debería confirmarse.
-
-No inventar valores cuantitativos sin marcarlos como supuestos.
