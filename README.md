@@ -32,9 +32,9 @@ El proceso de diseño de prompts se realizó de forma iterativa:
 ## 4. Agentes de IA Utilizados para la Prueba y Validación
 Para evaluar la robustez, consistencia y portabilidad de las tres Skills, se realizaron diversas pruebas utilizando los siguientes agentes de Inteligencia Artificial:
 
-Claude 
-OpenCode 
-NotebookLM 
+- Claude
+- OpenCode
+- NotebookLM 
 
 Los casos de prueba utilizados se encuentran documentados en el archivo test.md. Para cada Skill se definieron diversos ejemplos correspondientes a los distintos atributos de calidad evaluados en la materia, con el objetivo de comprobar que las Skills fueran capaces de identificar y procesar correctamente cada uno de ellos.
 
