@@ -1,4 +1,4 @@
-# Informe de Diseño de Skills Arquitectónicas (SEI) - TP3 Consigna 4
+# Informe de Diseño de Skills Arquitectónicas (SEI) 
 
 
 ## 1. Contexto y Objetivos
